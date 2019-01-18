@@ -107,6 +107,10 @@ class Commander {
                 'text'
             ]
         ],
+        'chat.permalink' => [
+            'token' => true,
+            'endpoint' => '/chat.getPermalink'
+        ],
         'dnd.endDnd' => [
             'token'    => true,
             'endpoint' => '/dnd.endDnd'
