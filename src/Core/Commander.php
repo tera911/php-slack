@@ -98,14 +98,16 @@ class Commander {
             'format'   => [
                 'text',
                 'username'
-            ]
+            ],
+            'post' => true
         ],
         'chat.update' => [
             'token'    => true,
             'endpoint' => '/chat.update',
             'format'   => [
                 'text'
-            ]
+            ],
+            'post' => true
         ],
         'chat.permalink' => [
             'token' => true,
